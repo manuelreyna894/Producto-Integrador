@@ -1,0 +1,20 @@
+# Credenciales y configuración local
+.env
+
+# Dependencias (se reinstalan con composer install)
+/vendor/
+
+# Archivos subidos por los usuarios, sesiones, logs y caché
+/writable/uploads/*
+/writable/session/*
+/writable/logs/*
+/writable/cache/*
+/writable/debugbar/*
+!/writable/**/index.html
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.zip
